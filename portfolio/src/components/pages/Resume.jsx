@@ -6,10 +6,16 @@ import Resume from "../resume.pdf";
 export default function Home() {
   return (
     <div>
-      <a href={Resume} class="text-center">
+      <h2 className="display-7 text-center">
+        Welcome! Down below are my skills and Resume!
+      </h2>
+      <a
+        className="btn btn-primary d-grid gap-4 col-6 mx-auto"
+        href={Resume}
+        role="button"
+      >
         Resume
       </a>
-
       <h2 className="display-7 text-center">Skills</h2>
       <ul className="list-group list-group-flush text-center">
         <li className="list-group-item">JavaScript</li>
