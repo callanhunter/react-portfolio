@@ -4,7 +4,7 @@
 
 # Deployed site
 
-###
+### https://callanhunter.github.io/react-portfolio/
 
 # Description
 
@@ -24,7 +24,7 @@
 
 # Usage
 
-### Walkthrough:
+### Walkthrough: https://drive.google.com/file/d/1IuCo_86HrbYYIQvp8b0hScEA4RA_qIwS/view
 
 # Languages Used
 
