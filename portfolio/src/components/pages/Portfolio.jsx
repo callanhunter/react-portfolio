@@ -1,52 +1,63 @@
 import React from "react";
 
+import Jate from "../images/jate.png";
+import Vacation from "../images/vacation-awaits.png";
+import Celebrity from "../images/screenshot.png";
+
 export default function Portfolio() {
   return (
     <div className="row row-cols-1 row-cols-md-3 g-4">
       <div className="col">
         <div className="card h-100">
-          {/* <img src="..." class="card-img-top" alt="..."> */}
           <div className="card-body">
-            <h5 className="card-title">Card title</h5>
-            <p className="card-text">
-              This is a wider card with supporting text below as a natural
-              lead-in to additional content. This content is a little bit
-              longer.
-            </p>
-          </div>
-          <div className="card-footer">
-            <small className="text-muted">Last updated 3 mins ago</small>
+            <h5 className="card-title">J.A.T.E</h5>
+            <img src={Jate} class="card-img-top"></img>
+            <a
+              href="https://github.com/callanhunter/text-editor"
+              class="card-link"
+            >
+              GitHub link
+            </a>
+            <a href="https://callan-jate-2000.herokuapp.com/" class="card-link">
+              Deployed link
+            </a>
           </div>
         </div>
       </div>
       <div className="col">
         <div className="card h-100">
-          {/* <img src="..." class="card-img-top" alt="..."> */}
           <div className="card-body">
-            <h5 className="card-title">Card title</h5>
-            <p className="card-text">
-              This card has supporting text below as a natural lead-in to
-              additional content.
-            </p>
-          </div>
-          <div className="card-footer">
-            <small className="text-muted">Last updated 3 mins ago</small>
+            <h5 className="card-title">Celebrity Matchmaker</h5>
+            <img src={Celebrity} class="card-img-top"></img>
+            <a
+              href="https://github.com/callanhunter/celebrity-matchmaker"
+              class="card-link"
+            >
+              GitHub link
+            </a>
+            <a
+              href="mayaimorales.github.io/celebrity-matchmaker/"
+              class="card-link"
+            >
+              Deployed link
+            </a>
           </div>
         </div>
       </div>
       <div className="col">
         <div className="card h-100">
-          {/* <img src="..." class="card-img-top" alt="..."> */}
           <div className="card-body">
-            <h5 className="card-title">Card title</h5>
-            <p className="card-text">
-              This is a wider card with supporting text below as a natural
-              lead-in to additional content. This card has even longer content
-              than the first to show that equal height action.
-            </p>
-          </div>
-          <div className="card-footer">
-            <small className="text-muted">Last updated 3 mins ago</small>
+            <h5 className="card-title">Vacation Awaits</h5>
+            <img src={Vacation} class="card-img-top"></img>
+            <a
+              href="https://github.com/callanhunter/vacation-awaits"
+              class="card-link"
+            >
+              GitHub link
+            </a>
+            <a href="https://vacation-awaits.herokuapp.com/" class="card-link">
+              Deployed link
+            </a>
           </div>
         </div>
       </div>
