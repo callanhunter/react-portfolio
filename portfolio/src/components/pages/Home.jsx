@@ -1,27 +1,35 @@
 import React from "react";
 
 import Image from "../images/image.jpg";
+import Resume from "../resume.pdf";
 
 export default function Home() {
   return (
-    <ul className="list-group list-group-flush text-center">
-      <li className="list-group-item">JavaScript</li>
-      <li className="list-group-item">HTML</li>
-      <li className="list-group-item">Bootstrap</li>
-      <li className="list-group-item">Momentjs</li>
-      <li className="list-group-item">indexDB</li>
-      <li className="list-group-item">Fetch</li>
-      <li className="list-group-item">MySQL</li>
-      <li className="list-group-item">MongoDB</li>
-      <li className="list-group-item">Apollo GraphQL</li>
-      <li className="list-group-item">React</li>
-      <li className="list-group-item">JSX</li>
-      <li className="list-group-item">Unit Test with JEST</li>
-      <li className="list-group-item">Node.js</li>
-      <li className="list-group-item">Apollo GraphQL</li>
-      <li className="list-group-item">Frontend Development</li>
-      <li className="list-group-item">Backend Development</li>
-    </ul>
+    <div>
+      <a href={Resume} class="text-center">
+        Resume
+      </a>
+
+      <h2 className="display-7 text-center">Skills</h2>
+      <ul className="list-group list-group-flush text-center">
+        <li className="list-group-item">JavaScript</li>
+        <li className="list-group-item">HTML</li>
+        <li className="list-group-item">Bootstrap</li>
+        <li className="list-group-item">Momentjs</li>
+        <li className="list-group-item">indexDB</li>
+        <li className="list-group-item">Fetch</li>
+        <li className="list-group-item">MySQL</li>
+        <li className="list-group-item">MongoDB</li>
+        <li className="list-group-item">Apollo GraphQL</li>
+        <li className="list-group-item">React</li>
+        <li className="list-group-item">JSX</li>
+        <li className="list-group-item">Unit Test with JEST</li>
+        <li className="list-group-item">Node.js</li>
+        <li className="list-group-item">Apollo GraphQL</li>
+        <li className="list-group-item">Frontend Development</li>
+        <li className="list-group-item">Backend Development</li>
+      </ul>
+    </div>
 
     // Problem-Solving
     // Pseudocode
