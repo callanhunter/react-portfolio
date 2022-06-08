@@ -1,21 +1,16 @@
 import React from "react";
 
-import Image from "../images/image.jpg";
 import Resume from "../resume.pdf";
 
 export default function Home() {
   return (
     <div>
       <h2 className="display-7 text-center">
-        Welcome! Down below are my skills and Resume!
-      </h2>
-      <a
-        className="btn btn-primary d-grid gap-4 col-6 mx-auto"
-        href={Resume}
-        role="button"
-      >
-        Resume
-      </a>
+        Welcome! Down below are my skills and here is my
+        <a href={Resume} target="_blank">
+          Resume
+        </a>
+      </h2>{" "}
       <h2 className="display-7 text-center">Skills</h2>
       <ul className="list-group list-group-flush text-center">
         <li className="list-group-item">JavaScript</li>
