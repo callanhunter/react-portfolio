@@ -2,42 +2,42 @@ import React from "react";
 
 export default function Contact() {
   return (
-    <form class="was-validated text-center">
-      <div class="mb-3">
-        <label for="exampleFormControlInput1" class="form-label">
+    <form className="was-validated text-center">
+      <div className="mb-3">
+        <label for="exampleFormControlInput1" className="form-label">
           Name
         </label>
         <input
           type="name"
-          class="form-control"
+          className="form-control"
           id="exampleFormControlInput1"
           placeholder=""
         ></input>
       </div>
-      <div class="mb-3">
-        <label for="exampleFormControlInput1" class="form-label">
+      <div className="mb-3">
+        <label for="exampleFormControlInput1" className="form-label">
           Email address
         </label>
         <input
           type="email"
-          class="form-control"
+          className="form-control"
           id="exampleFormControlInput1"
           placeholder="name@example.com"
         ></input>
       </div>
-      <div class="mb-3">
-        <label for="exampleFormControlTextarea1" class="form-label">
+      <div className="mb-3">
+        <label for="exampleFormControlTextarea1" className="form-label">
           Message
         </label>
         <textarea
-          class="form-control"
+          className="form-control"
           id="exampleFormControlTextarea1"
           rows="3"
         ></textarea>
       </div>
 
-      <div class="mb-3">
-        <button class="btn btn-primary" type="submit">
+      <div className="mb-3">
+        <button className="btn btn-primary" type="submit">
           Submit form
         </button>
       </div>

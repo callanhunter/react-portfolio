@@ -2,24 +2,56 @@ import React from "react";
 
 export default function Footer() {
   return (
-    <nav class="navbar fixed-bottom bg-light">
-      <div class="">
-        <a
-          class="navbar-brand text-center"
-          href="https://www.linkedin.com/in/callan-hunter-195816196/"
-          target="_blank"
-        >
-          LinkedIn
-        </a>
-        <a
-          class="navbar-brand text-center"
-          href="https://github.com/callanhunter"
-          target="_blank"
-        >
-          GitHub
-        </a>
-      </div>
-    </nav>
+    <></>
+    // <footer className="bg-dark text-center text-white fixed-bottom ">
+    //   <h2 className="h6 text-center  d-inline p-2">Contact Me</h2>
+    //   <div className="container p-0">
+    //     <section className="mb-2">
+    //       <a
+    //         className="btn btn-outline-light rounded-circle"
+    //         href="https://www.linkedin.com/in/callan-hunter-195816196/"
+    //         target="_blank"
+    //         role="button"
+    //       >
+    //         <i className="bi bi-linkedin"></i>
+    //       </a>
+    //       <a
+    //         className="btn btn-outline-light rounded-circle"
+    //         href="https://github.com/callanhunter"
+    //         target="_blank"
+    //         role="button"
+    //       >
+    //         <i className="bi bi-github"></i>
+    //       </a>
+    //       <a
+    //         className="btn btn-outline-light rounded-circle"
+    //         href="#!"
+    //         role="button"
+    //       >
+    //         <i className="bi bi-google"></i>
+    //       </a>
+    //     </section>
+    //   </div>
+    // </footer>
+
+    // <nav className="navbar fixed-bottom bg-light">
+    //   <div className="">
+    //     <a
+    //       className="navbar-brand text-center"
+    //       href="https://www.linkedin.com/in/callan-hunter-195816196/"
+    //       target="_blank"
+    //     >
+    //       LinkedIn
+    //     </a>
+    //     <a
+    //       className="navbar-brand text-center"
+    //       href="https://github.com/callanhunter"
+    //       target="_blank"
+    //     >
+    //       GitHub
+    //     </a>
+    //   </div>
+    // </nav>
 
     // <footer class="page-footer font-small blue">
     //   <div class="footer text-center py-3">

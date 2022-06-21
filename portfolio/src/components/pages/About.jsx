@@ -4,13 +4,18 @@ import Imagenew from "../images/image2.jpg";
 
 export default function About() {
   return (
-    <article className="card m-2">
-      <div className="card-header text-center">
-        <img src={Imagenew} class="img-fluid"></img>
-        <h2 className="carousel-caption text-info bg-dark">
-          A little about me. I'm Callan Hunter, an aspiring Software Engineer
-          who will be graduating from UC Berkeley Coding Bootcamp June 13th.
+    <article className="card bg-dark">
+      <div className="text-center mx-auto d-block">
+        <h2 className="text-white text-center border-bottom d-inline h1">
+          A little about me.
         </h2>
+        <h3 className="text-white text-center h4 ">
+          Hello, I'm Callan Hunter, an aspiring Software Engineer who is a
+          recent graduate at UC Berkeley Coding Bootcamp. Previously I attended
+          the University of Oregon and Lane Community College in Eugene, Oregon.
+          I have experience working with UX Design, Front End applications, Back
+          End applications, and Full Stack Web applications.
+        </h3>
       </div>
     </article>
   );
