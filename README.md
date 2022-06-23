@@ -24,7 +24,7 @@
 
 # Usage
 
-### Walkthrough: https://drive.google.com/file/d/1IuCo_86HrbYYIQvp8b0hScEA4RA_qIwS/view
+### Walkthrough: https://drive.google.com/file/d/191_IWkoAjmCne-BwMMWC4Yaqi7Di5Vqb/view
 
 # Languages Used
 
@@ -33,6 +33,8 @@
 - Bootstrap
 
 - HTML
+
+- CSS
 
 # Credits
 

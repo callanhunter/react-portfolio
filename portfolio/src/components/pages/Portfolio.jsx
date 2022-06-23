@@ -16,11 +16,12 @@ export default function Portfolio() {
             <h2 className=" text-center  h1 ">Projects</h2>
           </div>
         </div>
-        <div className="row row-cols-2 row-cols-md-3 g-4 mb-4">
+        <div className="row row-cols-2 row-cols-md-3 g-4 mb-4 text-center">
           <div className="">
             <div className="card">
               <div className="card-body">
-                <h5 className="card-title">J.A.T.E</h5>
+                <h5 className="card-title text-center">J.A.T.E</h5>
+                <p className="card-title text-center">PWA Application</p>
                 <img src={Jate} className="card-img-top"></img>
                 <a
                   href="https://github.com/callanhunter/text-editor"
@@ -42,17 +43,18 @@ export default function Portfolio() {
           <div className="col">
             <div className="card h-100">
               <div className="card-body">
-                <h5 className="card-title">Celebrity Matchmaker</h5>
+                <h5 className="card-title text-center">Celebrity Matchmaker</h5>
+                <p className="card-title text-center">Front End Application</p>
                 <img src={Celebrity} className="card-img-top"></img>
                 <a
-                  href="https://mayaimorales.github.io/celebrity-matchmaker/"
+                  href="https://github.com/callanhunter/celebrity-matchmaker"
                   className="card-link"
                   target="_blank"
                 >
                   GitHub link
                 </a>
                 <a
-                  href="mayaimorales.github.io/celebrity-matchmaker/"
+                  href="https://mayaimorales.github.io/celebrity-matchmaker/"
                   className="card-link"
                   target="_blank"
                 >
@@ -64,7 +66,8 @@ export default function Portfolio() {
           <div className="col">
             <div className="card h-100">
               <div className="card-body">
-                <h5 className="card-title">Vacation Awaits</h5>
+                <h5 className="card-title text-center">Vacation Awaits</h5>
+                <p className="card-title text-center">Full Stack Application</p>
                 <img src={Vacation} className="card-img-top"></img>
                 <a
                   href="https://github.com/callanhunter/vacation-awaits"
@@ -86,7 +89,8 @@ export default function Portfolio() {
           <div className="col">
             <div className="card h-100">
               <div className="card-body">
-                <h5 className="card-title">Social Network API</h5>
+                <h5 className="card-title text-center">Social Network API</h5>
+                <p className="card-title text-center">Back End Application</p>
                 <img src={Api} className="card-img-top "></img>
                 <a
                   href="https://github.com/callanhunter/social-network-api"
@@ -101,7 +105,8 @@ export default function Portfolio() {
           <div className="col">
             <div className="card h-100">
               <div className="card-body">
-                <h5 className="card-title">README Generator</h5>
+                <h5 className="card-title text-center">README Generator</h5>
+                <p className="card-title text-center">Back End Application</p>
                 <img src={Readme} className="card-img-top"></img>
                 <a
                   href="https://github.com/callanhunter/readme-generator"
@@ -116,7 +121,8 @@ export default function Portfolio() {
           <div className="col">
             <div className="card h-100">
               <div className="card-body">
-                <h5 className="card-title">Management System</h5>
+                <h5 className="card-title text-center">Management System</h5>
+                <p className="card-title text-center">Back End Application</p>
                 <img src={Employee} className="card-img-top"></img>
                 <a
                   href="https://github.com/callanhunter/employee-management-system"

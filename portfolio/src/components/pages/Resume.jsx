@@ -75,13 +75,5 @@ export default function Resume() {
         </div>
       </article>
     </main>
-    // <div>
-    //   <h2 className="display-7 text-center">
-    //     Welcome! Down below are my skills and here is my
-    //     {/* <a href={newResume} target="_blank">
-    //       Resume
-    //     </a> */}
-    //   </h2>
-    // </div>
   );
 }
