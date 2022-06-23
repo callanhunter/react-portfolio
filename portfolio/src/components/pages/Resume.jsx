@@ -1,91 +1,87 @@
 import React from "react";
 
-import Resume from "../resume.pdf";
+import newResume from "../resume.pdf";
 
-export default function Home() {
+export default function Resume() {
   return (
-    <div>
-      <h2 className="display-7 text-center">
-        Welcome! Down below are my skills and here is my
-        <a href={Resume} target="_blank">
-          Resume
-        </a>
-      </h2>{" "}
-      <h2 className="display-7 text-center">Skills</h2>
-      <ul className="list-group list-group-flush text-center">
-        <li className="list-group-item">JavaScript</li>
-        <li className="list-group-item">HTML</li>
-        <li className="list-group-item">Bootstrap</li>
-        <li className="list-group-item">Momentjs</li>
-        <li className="list-group-item">indexDB</li>
-        <li className="list-group-item">Fetch</li>
-        <li className="list-group-item">MySQL</li>
-        <li className="list-group-item">MongoDB</li>
-        <li className="list-group-item">Apollo GraphQL</li>
-        <li className="list-group-item">React</li>
-        <li className="list-group-item">JSX</li>
-        <li className="list-group-item">Unit Test with JEST</li>
-        <li className="list-group-item">Node.js</li>
-        <li className="list-group-item">Apollo GraphQL</li>
-        <li className="list-group-item">Frontend Development</li>
-        <li className="list-group-item">Backend Development</li>
-      </ul>
-    </div>
-
-    // Problem-Solving
-    // Pseudocode
-    // HTML5
-    // Cascading Style Sheets (CSS)
-    // Javascript
-    // ES6
-    // Command Line
-    // Developer Tools (Elements, Console, Network, Sources, Application, etc)
-    // Bootstrap
-    // Web API
-    // jQuery
-    // Server Side API
-    // Third Party API
-    // Momentjs
-    // indexDB
-    // Insomnia / Postman
-    // AJAX
-    // Fetch
-    // JSON
-    // Git
-    // GitHub
-    // Node.js
-    // Express.js
-    // Rest API
-    // Serverside Templating (Handlebars.js)
-    // Heroku
-    // Express Sessions
-    // bcrypt
-    // JWT Javascript Web Token
-    // Relational Databases
-    // MySQL
-    // Sequelize ORM
-    // Non-Relational Databases
-    // Mongo DB
-    // Mongoose ODM
-    // Object-oriented Programming (OOP)
-    // Imperative Programming
-    // Declarative Programming
-    // TDD
-    // Unit Testing w/ JEST
-    // React
-    // React Hooks
-    // JSX
-    // Data Structures and Algorithms
-    // Frontend Development
-    // Backend Development
-    // Full Stack Development
-    // Performance
-    // Webpack
-    // PWA
-    // Apollo GraphQL
-    // Context API
-    // MERN Stack
-    // Stripe API
-    // Redux
+    <main>
+      <article className="card m-3">
+        <div className="card sub-card m-3">
+          <div className="card-body text-center">
+            <button type="button" class="btn btn-secondary btn-lg">
+              <a href={newResume} className="text-white text-decoration: none">
+                Resume
+              </a>
+            </button>
+            <h4 className="card-title">A little about me</h4>
+            <p className="card-text">
+              Hello, I'm Callan Hunter, an aspiring Software Engineer who is a
+              recent graduate at UC Berkeley Extension Coding Bootcamp.
+              Previously I attended the University of Oregon and Lane Community
+              College in Eugene, Oregon. I have experience working with UX
+              Design, Front End applications, Back End applications, and Full
+              Stack Web applications.
+            </p>
+          </div>
+        </div>
+        <div className="card sub-card m-3">
+          <div className="card-body text-center">
+            <h4 className="card-title">List of Skills</h4>
+            <div className="container">
+              <div className="row">
+                <ul className="list-group text-center col-sm">
+                  <li className="list-group-item">JavaScript</li>
+                  <li className="list-group-item">HTML</li>
+                  <li className="list-group-item">Bootstrap</li>
+                  <li className="list-group-item">Momentjs</li>
+                  <li className="list-group-item">indexDB</li>
+                  <li className="list-group-item">Fetch</li>
+                  <li className="list-group-item">MySQL</li>
+                  <li className="list-group-item">MongoDB</li>
+                  <li className="list-group-item">Apollo GraphQL</li>
+                  <li className="list-group-item">React</li>
+                  <li className="list-group-item">JSX</li>
+                  <li className="list-group-item">Unit Test with JEST</li>
+                  <li className="list-group-item">Node.js</li>
+                  <li className="list-group-item">Apollo GraphQL</li>
+                  <li className="list-group-item">Frontend Development</li>
+                  <li className="list-group-item">Backend Development</li>
+                </ul>
+                <ul className="list-group text-center col-sm">
+                  <li className="list-group-item">Webpack</li>
+                  <li className="list-group-item">Web API</li>
+                  <li className="list-group-item">jQuery</li>
+                  <li className="list-group-item">Psuedocode</li>
+                  <li className="list-group-item">Redux</li>
+                  <li className="list-group-item">JWT Javascript Web Token</li>
+                  <li className="list-group-item">
+                    Object-oriented Programming (OOP)
+                  </li>
+                  <li className="list-group-item">React Hooks</li>
+                  <li className="list-group-item">
+                    Data Structures and Algorithms
+                  </li>
+                  <li className="list-group-item">Context API</li>
+                  <li className="list-group-item">Express.js</li>
+                  <li className="list-group-item">PWA</li>
+                  <li className="list-group-item">Non-Relational Databases</li>
+                  <li className="list-group-item">ES6</li>
+                  <li className="list-group-item">Command Line</li>
+                  <li className="list-group-item">bcrypt</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </article>
+    </main>
+    // <div>
+    //   <h2 className="display-7 text-center">
+    //     Welcome! Down below are my skills and here is my
+    //     {/* <a href={newResume} target="_blank">
+    //       Resume
+    //     </a> */}
+    //   </h2>
+    // </div>
   );
 }
