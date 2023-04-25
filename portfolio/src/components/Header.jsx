@@ -36,6 +36,18 @@ function Header({ currentPage, handlePageChange }) {
             id="navbarNavDropdown"
           >
             <a
+              href="#about"
+              onClick={() => handlePageChange("About")}
+              className={
+                currentPage === "About"
+                  ? "nav-link active "
+                  : "nav-link text-white "
+              }
+              aria-current="page"
+            >
+              About
+            </a>
+            <a
               href="#portfolio"
               onClick={() => handlePageChange("Portfolio")}
               className={

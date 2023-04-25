@@ -1,4 +1,5 @@
 import React from "react";
+// import "../App.css";
 
 import Imagenew from "../images/image2.jpg";
 
