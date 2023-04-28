@@ -63,7 +63,11 @@ function Header({ currentPage, handlePageChange }) {
             <a
               href={Resume}
               onClick={() => handlePageChange({ Resume })}
-              className="text-white"
+              className={
+                currentPage === "Resume"
+                  ? "nav-link active "
+                  : "nav-link text-white "
+              }
               aria-current="page"
               style={{ textDecoration: "none" }}
               target="_blank"

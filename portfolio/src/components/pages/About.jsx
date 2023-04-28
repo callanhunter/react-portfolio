@@ -2,11 +2,12 @@ import React from "react";
 // import "../App.css";
 
 import Imagenew from "../images/picture.jpeg";
+import Resume from "./Resume";
 import Jate from "../images/jate.png";
 import Vacation from "../images/vacation-awaits.png";
 import Employee from "../images/employee.png";
 
-export default function About() {
+export default function About(handlePageChange) {
   return (
     <main>
       <article className="card m-3 ">
@@ -19,7 +20,7 @@ export default function About() {
           <h4 className="card-title">A little about me</h4>
           <p className="card-text">
             Hello, I'm Callan Hunter, an aspiring Software Engineer who is a
-            graduate at UC Berkeley Extension Coding Bootcamp. Previously I
+            graduate of UC Berkeley Extension Coding Bootcamp. Previously I
             attended the University of Oregon and Lane Community College in
             Eugene, Oregon. I have experience working with UX Design, Front End
             applications, Back End applications, and Full Stack Web

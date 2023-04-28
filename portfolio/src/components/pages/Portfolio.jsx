@@ -6,6 +6,7 @@ import Celebrity from "../images/screenshot.png";
 import Api from "../images/api.png";
 import Employee from "../images/employee.png";
 import Readme from "../images/readme.png";
+import Ecommerce from "../images/ecommerce.png";
 
 export default function Portfolio() {
   return (
@@ -89,11 +90,11 @@ export default function Portfolio() {
           <div className="col">
             <div className="card h-100">
               <div className="card-body">
-                <h5 className="card-title text-center">Social Network API</h5>
+                <h5 className="card-title text-center">E-Commerce Back-End</h5>
                 <p className="card-title text-center">Back End Application</p>
-                <img src={Api} className="card-img-top "></img>
+                <img src={Ecommerce} className="card-img-top "></img>
                 <a
-                  href="https://github.com/callanhunter/social-network-api"
+                  href="https://github.com/callanhunter/e-commerce-back-end"
                   className="card-link "
                   target="_blank"
                 >
@@ -125,7 +126,7 @@ export default function Portfolio() {
                 <p className="card-title text-center">Back End Application</p>
                 <img src={Employee} className="card-img-top"></img>
                 <a
-                  href="https://github.com/callanhunter/employee-management-system"
+                  href="https://github.com/callanhunter/management-system"
                   className="card-link"
                   target="_blank"
                 >
