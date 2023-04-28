@@ -20,7 +20,7 @@ export default function About(handlePageChange) {
           <h4 className="card-title">A little about me</h4>
           <p className="card-text">
             Hello, I'm Callan Hunter, an aspiring Software Engineer who is a
-            graduate of UC Berkeley Extension Coding Bootcamp. Previously I
+            graduate of UC Berkeley Extension Coding Bootcamp. Previously, I
             attended the University of Oregon and Lane Community College in
             Eugene, Oregon. I have experience working with UX Design, Front End
             applications, Back End applications, and Full Stack Web
