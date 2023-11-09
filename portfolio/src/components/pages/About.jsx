@@ -19,12 +19,13 @@ export default function About(handlePageChange) {
           />
           <h4 className="card-title">A little about me</h4>
           <p className="card-text">
-            Hello, I'm Callan Hunter, an aspiring Software Engineer who is a
-            graduate of UC Berkeley Extension Coding Bootcamp. Previously, I
-            attended the University of Oregon and Lane Community College in
-            Eugene, Oregon. I have experience working with UX Design, Front End
-            applications, Back End applications, and Full Stack Web
-            applications.
+            I attended a full-stack web development bootcamp through UC Berkeley
+            extension where over 300 classroom hours were spent learning
+            hands-on coding in Javascript, MongoDB, Express, React, Node, HTML,
+            CSS. My thirst for knowledge wasn’t quite satisfied however, I
+            wanted to learn more! To further my knowledge, I am a current cloud
+            computing student at Fullstack Academy specializing in AWS and
+            Azure.
           </p>
           <div className="container mt-3">
             <button
@@ -57,34 +58,42 @@ export default function About(handlePageChange) {
                       <div className="row">
                         <ul className="list-group text-center col-sm list-group-item-dark">
                           <li className="list-group-item">JavaScript</li>
-                          <li className="list-group-item">HTML</li>
-                          <li className="list-group-item">Bootstrap</li>
-                          <li className="list-group-item">Momentjs</li>
-                          <li className="list-group-item">indexDB</li>
-                          <li className="list-group-item">Fetch</li>
-                          <li className="list-group-item">MySQL</li>
-                          <li className="list-group-item">MongoDB</li>
-                          <li className="list-group-item">Apollo GraphQL</li>
-                          <li className="list-group-item">React</li>
-                          <li className="list-group-item">JSX</li>
-                          <li className="list-group-item">
-                            Unit Test with JEST
-                          </li>
+                          <li className="list-group-item">React.js</li>
+                          <li className="list-group-item">REST APIs</li>
                           <li className="list-group-item">Node.js</li>
-                          <li className="list-group-item">Apollo GraphQL</li>
                           <li className="list-group-item">
-                            Frontend Development
+                            Cascading Style Sheets (CSS)
                           </li>
                           <li className="list-group-item">
-                            Backend Development
+                            Full-Stack Development
                           </li>
-                          <li className="list-group-item">Webpack</li>
+                          <li className="list-group-item">
+                            Back-End Development
+                          </li>
+                          <li className="list-group-item">Express.js</li>
+                          <li className="list-group-item">HTML5</li>
+                          <li className="list-group-item">Git</li>
+                          <li className="list-group-item">GitHub</li>
+                          <li className="list-group-item">SQL</li>
+                          <li className="list-group-item">
+                            Responsive Web Design
+                          </li>
+                          <li className="list-group-item">
+                            Document Object Model (DOM)
+                          </li>
+                          <li className="list-group-item">
+                            Object-Oriented Programming (OOP)
+                          </li>
+                          <li className="list-group-item">MongoDB</li>
+                          {/* <li className="list-group-item">Webpack</li> */}
                         </ul>
                         <ul className="list-group text-center col-sm">
-                          <li className="list-group-item">Web API</li>
-                          <li className="list-group-item">jQuery</li>
-                          <li className="list-group-item">Psuedocode</li>
-                          <li className="list-group-item">Redux</li>
+                          <li className="list-group-item">Cloud Computing</li>
+                          <li className="list-group-item">
+                            Amazon Web Services
+                          </li>
+                          <li className="list-group-item">Microsoft Azure</li>
+                          {/* <li className="list-group-item">Redux</li>
                           <li className="list-group-item">
                             JWT Javascript Web Token
                           </li>
@@ -103,7 +112,7 @@ export default function About(handlePageChange) {
                           </li>
                           <li className="list-group-item">ES6</li>
                           <li className="list-group-item">Command Line</li>
-                          <li className="list-group-item">bcrypt</li>
+                          <li className="list-group-item">bcrypt</li> */}
                         </ul>
                       </div>
                     </div>

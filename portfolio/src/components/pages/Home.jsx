@@ -18,7 +18,9 @@ export default function Home() {
             src={Imagenew}
             style={{ width: "60%" }}
           />
-          <h2 className="display-6">I'm a Full Stack Web Developer</h2>
+          <h2 className="display-6">
+            I'm a Software Engineer and AWS Solutions Architect
+          </h2>
         </div>
 
         <div className="card m-4">
