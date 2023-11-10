@@ -17,53 +17,7 @@ export default function Portfolio() {
             <h2 className=" text-center  h1 ">Projects</h2>
           </div>
         </div>
-        <div className="row row-cols-2 row-cols-md-3 g-4 mb-4 text-center">
-          <div className="">
-            <div className="card">
-              <div className="card-body">
-                <h5 className="card-title text-center">J.A.T.E</h5>
-                <p className="card-title text-center">PWA Application</p>
-                <img src={Jate} className="card-img-top"></img>
-                <a
-                  href="https://github.com/callanhunter/text-editor"
-                  className="card-link"
-                  target="_blank"
-                >
-                  GitHub link
-                </a>
-                <a
-                  href="https://callan-jate-2000.herokuapp.com/"
-                  className="card-link"
-                  target="_blank"
-                >
-                  Deployed link
-                </a>
-              </div>
-            </div>
-          </div>
-          <div className="col">
-            <div className="card h-100">
-              <div className="card-body">
-                <h5 className="card-title text-center">Celebrity Matchmaker</h5>
-                <p className="card-title text-center">Front End Application</p>
-                <img src={Celebrity} className="card-img-top"></img>
-                <a
-                  href="https://github.com/callanhunter/celebrity-matchmaker"
-                  className="card-link"
-                  target="_blank"
-                >
-                  GitHub link
-                </a>
-                <a
-                  href="https://mayaimorales.github.io/celebrity-matchmaker/"
-                  className="card-link"
-                  target="_blank"
-                >
-                  Deployed link
-                </a>
-              </div>
-            </div>
-          </div>
+        <div className="row row-cols-2 row-cols-md-2 g-4 mb-4 text-center">
           <div className="col">
             <div className="card h-100">
               <div className="card-body">
@@ -87,38 +41,7 @@ export default function Portfolio() {
               </div>
             </div>
           </div>
-          <div className="col">
-            <div className="card h-100">
-              <div className="card-body">
-                <h5 className="card-title text-center">E-Commerce Back-End</h5>
-                <p className="card-title text-center">Back End Application</p>
-                <img src={Ecommerce} className="card-img-top "></img>
-                <a
-                  href="https://github.com/callanhunter/e-commerce-back-end"
-                  className="card-link "
-                  target="_blank"
-                >
-                  GitHub link
-                </a>
-              </div>
-            </div>
-          </div>
-          <div className="col">
-            <div className="card h-100">
-              <div className="card-body">
-                <h5 className="card-title text-center">README Generator</h5>
-                <p className="card-title text-center">Back End Application</p>
-                <img src={Readme} className="card-img-top"></img>
-                <a
-                  href="https://github.com/callanhunter/readme-generator"
-                  className="card-link"
-                  target="_blank"
-                >
-                  GitHub link
-                </a>
-              </div>
-            </div>
-          </div>
+
           <div className="col">
             <div className="card h-100">
               <div className="card-body">
@@ -132,6 +55,20 @@ export default function Portfolio() {
                 >
                   GitHub link
                 </a>
+              </div>
+            </div>
+          </div>
+          <div className="col">
+            <div className="card h-100">
+              <div className="card-body">
+                <h5 className="card-title text-center">Cloud Project</h5>
+              </div>
+            </div>
+          </div>
+          <div className="col">
+            <div className="card h-100">
+              <div className="card-body">
+                <h5 className="card-title text-center">Cloud Project</h5>
               </div>
             </div>
           </div>
