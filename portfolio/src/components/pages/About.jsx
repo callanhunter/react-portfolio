@@ -19,13 +19,13 @@ export default function About(handlePageChange) {
           />
           <h4 className="card-title">A little about me</h4>
           <p className="card-text">
-            I attended a full-stack web development bootcamp through UC Berkeley
-            extension where over 300 classroom hours were spent learning
-            hands-on coding in Javascript, MongoDB, Express, React, Node, HTML,
-            CSS. My thirst for knowledge wasn’t quite satisfied however, I
-            wanted to learn more! To further my knowledge, I am a current cloud
-            computing student at Fullstack Academy specializing in AWS and
-            Azure.
+            Graduate from the full-stack web development boot-camp through UC
+            Berkeley extension where over 300 classroom hours were spent
+            learning hands-on coding in JavaScript, MongoDB, Express, React,
+            Node, HTML, and Cascading Style Sheets (CSS). However, my thirst for
+            knowledge didn't end there and I decided to continue my education. I
+            am currently a cloud computing student at Fullstack Academy,
+            specializing in Amazon Web Services (AWS) and Microsoft Azure.
           </p>
           <div className="container mt-3">
             <button
@@ -85,7 +85,6 @@ export default function About(handlePageChange) {
                             Object-Oriented Programming (OOP)
                           </li>
                           <li className="list-group-item">MongoDB</li>
-                          {/* <li className="list-group-item">Webpack</li> */}
                         </ul>
                         <ul className="list-group text-center col-sm">
                           <li className="list-group-item">Cloud Computing</li>
@@ -93,26 +92,6 @@ export default function About(handlePageChange) {
                             Amazon Web Services
                           </li>
                           <li className="list-group-item">Microsoft Azure</li>
-                          {/* <li className="list-group-item">Redux</li>
-                          <li className="list-group-item">
-                            JWT Javascript Web Token
-                          </li>
-                          <li className="list-group-item">
-                            Object-oriented Programming (OOP)
-                          </li>
-                          <li className="list-group-item">React Hooks</li>
-                          <li className="list-group-item">
-                            Data Structures and Algorithms
-                          </li>
-                          <li className="list-group-item">Context API</li>
-                          <li className="list-group-item">Express.js</li>
-                          <li className="list-group-item">PWA</li>
-                          <li className="list-group-item">
-                            Non-Relational Databases
-                          </li>
-                          <li className="list-group-item">ES6</li>
-                          <li className="list-group-item">Command Line</li>
-                          <li className="list-group-item">bcrypt</li> */}
                         </ul>
                       </div>
                     </div>
