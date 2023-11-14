@@ -7,7 +7,8 @@ import Api from "../images/api.png";
 import Employee from "../images/employee.png";
 import Readme from "../images/readme.png";
 import Ecommerce from "../images/ecommerce.png";
-import RDS from "../images/cloud project 1.png";
+import Cloud1 from "../images/cloudproject1.png";
+import Cloud2 from "../images/cloudproject8.png";
 
 export default function Portfolio() {
   return (
@@ -70,11 +71,11 @@ export default function Portfolio() {
           <div className="col">
             <div className="card h-100">
               <div className="card-body">
-                <h5 className="card-title text-center"></h5>
-                <p className="card-title text-center">Back End Application</p>
-                <img src={RDS} className="card-img-top">
+                <h5 className="card-title text-center">Cloud Project</h5>
+                <p className="card-title text-center">
                   Migrating a Database to Amazon RDS
-                </img>
+                </p>
+                <img src={Cloud1} className="card-img-top"></img>
                 <button type="button" className="btn btn-dark  mt-3">
                   <a
                     href="https://github.com/callanhunter/management-system"
@@ -91,13 +92,19 @@ export default function Portfolio() {
             <div className="card h-100">
               <div className="card-body">
                 <h5 className="card-title text-center">Cloud Project</h5>
-              </div>
-            </div>
-          </div>
-          <div className="col">
-            <div className="card h-100">
-              <div className="card-body">
-                <h5 className="card-title text-center">Cloud Project</h5>
+                <p className="card-title text-center">
+                  Creating a Dynamic Website for a Cafe
+                </p>
+                <img src={Cloud2} className="card-img-top"></img>
+                <button type="button" className="btn btn-dark  mt-1">
+                  <a
+                    href="https://github.com/callanhunter/management-system"
+                    className="card-link text-white container mt-1 text-decoration-none"
+                    target="_blank"
+                  >
+                    Details
+                  </a>
+                </button>
               </div>
             </div>
           </div>
