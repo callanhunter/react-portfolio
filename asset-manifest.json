@@ -1,25 +1,27 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.58462ae1.css",
-    "main.js": "/react-portfolio/static/js/main.384e6bc3.js",
+    "main.js": "/react-portfolio/static/js/main.50030b56.js",
     "static/media/vacation-awaits.png": "/react-portfolio/static/media/vacation-awaits.f9a26782b7930a5916f6.png",
     "static/media/employee.png": "/react-portfolio/static/media/employee.1d97e1f8ecd8eac233a5.png",
     "static/media/screenshot.png": "/react-portfolio/static/media/screenshot.53d5691048ef6bba4f33.png",
     "static/media/api.png": "/react-portfolio/static/media/api.d1eaeb0ba05c23546e9a.png",
     "static/media/newImg.jpg": "/react-portfolio/static/media/newImg.cd14ed88e17b5570475b.jpg",
     "static/media/readme.png": "/react-portfolio/static/media/readme.6e117797040585f3fe16.png",
+    "static/media/cloudproject5.png": "/react-portfolio/static/media/cloudproject5.62beee949cc16f9f2486.png",
     "static/media/ecommerce.png": "/react-portfolio/static/media/ecommerce.95d430bb00d1345ad440.png",
     "static/media/picture.jpeg": "/react-portfolio/static/media/picture.b70de1e1c62f862689d6.jpeg",
     "static/media/jate.png": "/react-portfolio/static/media/jate.821f3501da107d5eb477.png",
     "static/media/bootstrap-icons.woff?": "/react-portfolio/static/media/bootstrap-icons.7ff3ca6fa798de3f8ac2.woff",
-    "static/media/resume.pdf": "/react-portfolio/static/media/resume.0d8b6afdac5ac6711dbb.pdf",
+    "static/media/cloudproject2.png": "/react-portfolio/static/media/cloudproject2.964185b85b7da8008d65.png",
+    "static/media/resume.pdf": "/react-portfolio/static/media/resume.ac2f6e19310f42777dea.pdf",
     "static/media/bootstrap-icons.woff2?": "/react-portfolio/static/media/bootstrap-icons.f2539a501be3a673de05.woff2",
     "index.html": "/react-portfolio/index.html",
     "main.58462ae1.css.map": "/react-portfolio/static/css/main.58462ae1.css.map",
-    "main.384e6bc3.js.map": "/react-portfolio/static/js/main.384e6bc3.js.map"
+    "main.50030b56.js.map": "/react-portfolio/static/js/main.50030b56.js.map"
   },
   "entrypoints": [
     "static/css/main.58462ae1.css",
-    "static/js/main.384e6bc3.js"
+    "static/js/main.50030b56.js"
   ]
 }
